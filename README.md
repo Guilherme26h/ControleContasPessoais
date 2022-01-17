@@ -60,12 +60,15 @@
   
   ><Colocar o link da uml aqui>
   
-  >Ferramentas selecionas para efetuar a parte do backend com suas bibliotecas.
+  > Ferramentas selecionas para efetuar a parte do backend com suas bibliotecas.
   
     ## SpringBoot
       
-      * Criação do api rest
-      * Conexão com banco de dados
+      * Web
+      * JPA
+      * H2
+      * Postgres
+      * Security
       
     > Linguagem de programação
       Java
