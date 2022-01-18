@@ -1,7 +1,11 @@
-import 'style.css';
+import './style.css';
 
 function AlterateBtn(){
     return(
-        <h1>Alterate</h1>
+        <div>
+            <button className="incluir">Alterar</button>
+        </div>
     );
 }
+
+export default AlterateBtn;

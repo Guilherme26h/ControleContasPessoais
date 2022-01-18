@@ -1,7 +1,9 @@
-import 'style.css';
+import './style.css';
 
 function RemoveBtn(){
     return(
-        <h1>RemoveBtn</h1>
+        <button className='remove'>Excluir</button>
     );
 }
+
+export default RemoveBtn;

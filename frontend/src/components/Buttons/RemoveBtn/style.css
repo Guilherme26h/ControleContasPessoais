@@ -1,1 +1,10 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.remove {
+  background-color: gray;
+  height: 60px;
+  width: 150px;
+  border-radius: 40px;
+  color: white;
+  font-family: 'Griffin';
+  margin-left: 10px;
+}
+/*# sourceMappingURL=style.css.map */

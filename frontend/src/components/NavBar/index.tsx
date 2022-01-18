@@ -1,4 +1,5 @@
 import "./style.css";
+import SearchBar from "components/SearchBar"
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserCircle} from "@fortawesome/free-solid-svg-icons";
@@ -19,6 +20,7 @@ function NavBar() {
             </i>
         </div>
       </nav>
+      <SearchBar />
     </div>
   );
 }
