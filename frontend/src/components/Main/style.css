@@ -19,4 +19,8 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+.table {
+  overflow: scroll;
+}
 /*# sourceMappingURL=style.css.map */

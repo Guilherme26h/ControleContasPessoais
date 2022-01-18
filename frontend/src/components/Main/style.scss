@@ -1,5 +1,6 @@
 .container{
     background: white;
+    
 }
 .main{
     text-align: center;
@@ -10,7 +11,9 @@
     flex-direction: row;
     margin-top: 20px;
     justify-content: center;
-    
-    
    
+}
+
+.table{
+    overflow: scroll;
 }

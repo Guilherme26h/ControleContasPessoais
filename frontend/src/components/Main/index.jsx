@@ -2,7 +2,7 @@ import './style.css';
 import AlterateBtn from 'components/Buttons/AlterateBtn';
 import RemoveBtn from 'components/Buttons/RemoveBtn';
 import IncludeBtn from 'components/Buttons/IncludeBtn';
-import Graphics from 'components/Graphics/Graphics';
+import Form from 'components/Form';
 
 function Main(){
     return(
@@ -12,11 +12,9 @@ function Main(){
                 <AlterateBtn />
                 <RemoveBtn />
             </div>
-            <section>
-                <Graphics />
-            </section>
-            <section>
-                <h1>Importar Form</h1>
+            <section className='table'>
+                <h2>Contas</h2>
+                <Form />
             </section>
         </div>
     );
