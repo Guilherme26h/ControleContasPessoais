@@ -1,7 +1,26 @@
-import 'style.css';
+import "./style.css";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUserCircle} from "@fortawesome/free-solid-svg-icons";
 
-function NavBar(){
-    return(
-        <h1>Navbar</h1>
-    );
+function NavBar() {
+  return (
+    <div className="container">
+      <nav className="navbar navbar-expand-lg navbar-light">
+        <i className="iconMenu">
+          <FontAwesomeIcon icon={faBars} />
+        </i>
+        <div className="title-software">
+            <h1>Controle Contas</h1>
+        </div>
+        <div>
+            <i className="userCircle">
+                <FontAwesomeIcon icon={faUserCircle} />
+            </i>
+        </div>
+      </nav>
+    </div>
+  );
 }
+
+export default NavBar;
