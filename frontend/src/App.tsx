@@ -1,8 +1,19 @@
 import './App.css';
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
+import Main from './components/Main';
+import Form from 'components/Form';
+
 
 function App() {
+
   return (
-    <h1>Página Inicial</h1>
+    <div className="app">
+      <NavBar />
+      <Main />
+        <Footer />
+      
+    </div>
   );
 }
 

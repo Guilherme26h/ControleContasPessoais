@@ -16,6 +16,11 @@
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
+  <script>
+    axios.get('http://localhost:3001/')
+    .then(response => console.log(response))
+    .catch(response => console.log(response))
+  </script>
   <div id="root"></div>
 
 </body>

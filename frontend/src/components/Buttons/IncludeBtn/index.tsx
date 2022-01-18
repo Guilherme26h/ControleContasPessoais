@@ -1,7 +1,9 @@
-import 'style.css';
+import './style.css';
 
 function IncludeBtn(){
     return(
-        <h1>Include</h1>
+        <button className='include'>Incluir</button>
     );
 }
+
+export default IncludeBtn;
