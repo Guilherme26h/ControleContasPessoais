@@ -1,6 +1,9 @@
 import './style.css';
 
+
+
 function Form(){
+
     return(
         <table className="table">
   <thead>
