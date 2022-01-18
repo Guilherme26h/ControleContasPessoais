@@ -5,8 +5,8 @@ import { faUserCircle} from "@fortawesome/free-solid-svg-icons";
 
 function NavBar() {
   return (
-    <div className="container">
-      <nav className="navbar navbar-expand-lg navbar-light">
+    <div className="container-header">
+      <nav className="navbar">
         <i className="iconMenu">
           <FontAwesomeIcon icon={faBars} />
         </i>
