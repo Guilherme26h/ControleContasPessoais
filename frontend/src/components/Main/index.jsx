@@ -1,8 +1,8 @@
 import './style.css';
 import AlterateBtn from 'components/Buttons/AlterateBtn';
-import RemoveBtn from 'components/Buttons/RemoveBtn';
+import CancelBtn from 'components/Buttons/RemoveBtn';
 import IncludeBtn from 'components/Buttons/IncludeBtn';
-import Form from 'components/Form';
+import Form from 'components/Table';
 
 function Main(){
     return(
@@ -10,7 +10,7 @@ function Main(){
             <div className='buttons'>
                 <IncludeBtn />
                 <AlterateBtn />
-                <RemoveBtn />
+                <CancelBtn />
             </div>
             <section className='table'>
                 <h2>Contas</h2>
