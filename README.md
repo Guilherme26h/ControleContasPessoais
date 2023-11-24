@@ -13,10 +13,11 @@
   
   ### INICIAR
   * Instalação do projeto
-    1. Entrar na pasta de backend e rodar 'npm i'
+    1. Entrar na pasta de backend e rodar `npm i`
   * Configuração Banco
     Preencha o arquivo dot.env de modelo com as seguintes instruções:
         
-      DB_URL= <mongodb://<ip servidor>:<porta servidor>/<seu banco de dados>?directConnection=true&serverSelectionTimeoutMS=2000 
-  *Inicie o projeto com npm start
+      `DB_URL= <mongodb://<ip servidor>:<porta servidor>/<seu banco de dados>?directConnection=true&serverSelectionTimeoutMS=2000`
+     
+  *Inicie o backend com `npm start`
       
